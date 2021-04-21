@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EADCB7D7-0454-4C91-A8D4-153BCD05094C}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7FA4F83-88E9-4FFD-90C7-A94D9246A089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4431138B-C290-4C59-B90A-CA4C389AB0CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore.IntegrationTestingEFAuth.WebAPI", "src\NETCore.IntegrationTestingEFAuth.WebAPI\NETCore.IntegrationTestingEFAuth.WebAPI.csproj", "{B5A1E41B-1024-472B-9E69-337CADB1D2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests", "test\NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests\NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests.csproj", "{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5A1E41B-1024-472B-9E69-337CADB1D2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A1E41B-1024-472B-9E69-337CADB1D2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A1E41B-1024-472B-9E69-337CADB1D2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A1E41B-1024-472B-9E69-337CADB1D2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5A1E41B-1024-472B-9E69-337CADB1D2CF} = {F7FA4F83-88E9-4FFD-90C7-A94D9246A089}
+		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2} = {4431138B-C290-4C59-B90A-CA4C389AB0CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85E45D76-E2EC-4F05-B14E-856F7DD310A8}
+	EndGlobalSection
+EndGlobal
