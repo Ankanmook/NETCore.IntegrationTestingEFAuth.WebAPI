@@ -16,9 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7FA4F83-88E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4431138B-C290-4C59-B90A-CA4C389AB0CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore.IntegrationTestingEFAuth.WebAPI", "src\NETCore.IntegrationTestingEFAuth.WebAPI\NETCore.IntegrationTestingEFAuth.WebAPI.csproj", "{B5A1E41B-1024-472B-9E69-337CADB1D2CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore.IntegrationTestingEFAuth.WebAPI", "src\NETCore.IntegrationTestingEFAuth.WebAPI\NETCore.IntegrationTestingEFAuth.WebAPI.csproj", "{B5A1E41B-1024-472B-9E69-337CADB1D2CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests", "test\NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests\NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests.csproj", "{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests", "test\NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests\NETCore.IntegrationTestingEFAuth.WebAPI.IntegrationTests.csproj", "{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6CF8654B-5C5A-40DB-8F19-74C505D6B043}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,10 @@ Global
 		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7587BA0-D9CF-4DFA-A2E5-3321B23567C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF8654B-5C5A-40DB-8F19-74C505D6B043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF8654B-5C5A-40DB-8F19-74C505D6B043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF8654B-5C5A-40DB-8F19-74C505D6B043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF8654B-5C5A-40DB-8F19-74C505D6B043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
